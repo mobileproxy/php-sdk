@@ -1,5 +1,7 @@
 # MobileProxy.Space PHP SDK
 
+[![CI](https://github.com/mobileproxy/php-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/mobileproxy/php-sdk/actions/workflows/ci.yml)
+
 Official PHP SDK for the [MobileProxy.Space](https://mobileproxy.space) API — private mobile proxies on real GSM devices across 52 countries.
 
 ## Features
@@ -140,7 +142,7 @@ API requests are limited to **3 × (number of active proxies)** per second. For 
 - [API Documentation](https://mobileproxy.space/en/user.html?api)
 - [Dashboard](https://mobileproxy.space/en/user.html)
 - [Website](https://mobileproxy.space)
-- [Chrome Extension](https://chromewebstore.google.com/detail/mobile-proxy-manager/)
+- [Chrome Extension](https://chromewebstore.google.com/detail/mobile-proxy-manager/lhbdhjhflkejgkkhlgacbaogbaaollac)
 
 ## License
 
