@@ -1,0 +1,35 @@
+{
+    "name": "mobirox/mobileproxy-sdk",
+    "description": "Official PHP SDK for MobileProxy.Space API — private mobile proxies on real GSM devices",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["proxy", "mobile-proxy", "mobileproxy", "socks5", "http-proxy", "scraping", "api-client"],
+    "homepage": "https://mobileproxy.space",
+    "authors": [
+        {
+            "name": "MobileProxy.Space",
+            "email": "support@mobirox.co.uk",
+            "homepage": "https://mobileproxy.space"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5 || ^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MobileProxy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MobileProxy\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
